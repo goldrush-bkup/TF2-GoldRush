@@ -8008,6 +8008,43 @@
 			"mouse_pressed_sound" 	"ui/item_helmet_pickup.wav"
 			"drop_sound" 		"ui/item_helmet_drop.wav"
 		}
+		"51"	
+		{
+			"name"	"Pyro's Beanie"
+			"prefab"	"valve base_hat"
+			"first_sale_date"	"2010/09/29"
+			"item_class"	"tf_wearable"
+			"loadondemand" "1"
+			"craft_class"	""
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_name"	"#TF_Pyro_Hat_1"
+			"item_description"	"#TF_Pyro_Hat_1_Desc"
+			"item_slot"	"head"
+			"equip_region"	"hat"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/pyro/pyro_hat"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/pyro/pyro_hat.mdl"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"pyro"	"1"
+			}
+			"static_attrs"
+			{
+				"limited quantity item"		"1"
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 		"ui/item_hat_drop.wav"
+		}
 		"52"	
 		{
 			"name"	"Batter's Helmet"
@@ -8492,6 +8529,119 @@
 				"heavy"	"1"
 			}
 		}
+		"97"
+		{
+			"name"	"Tough Guy's Toque"
+			"prefab"	"valve base_hat"
+			"first_sale_date"	"2010/09/29"
+			"item_class"	"tf_wearable"
+			"loadondemand" "1"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_name"	"#TF_Heavy_Stocking_cap"
+			"item_description"	"#TF_Heavy_Stocking_cap_Desc"
+			"item_slot"	"head"
+			"equip_region"	"hat"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/heavy/heavy_stocking_cap"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/heavy/heavy_stocking_cap.mdl"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"heavy"	"1"
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 		"ui/item_hat_drop.wav"
+		}
+		"98"
+		{
+			"name"	"Stainless Pot"
+			"prefab"	"valve base_hat"
+			"first_sale_date"	"2010/09/29"
+			"item_class"	"tf_wearable"
+			"loadondemand" "1"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_name"	"#TF_Soldier_Pot_Hat"
+			"item_description"	"#TF_Soldier_Pot_Hat_Desc"
+			"item_slot"	"head"
+			"equip_region"	"hat"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/soldier/soldier_pot"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/soldier/soldier_pot.mdl"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"		"1"
+				}
+			}
+			"mouse_pressed_sound" 	"ui/item_metal_pot_pickup.wav"
+			"drop_sound" 		"ui/item_metal_pot_drop.wav"
+		}
+		"99"
+		{
+			"name"	"Tyrant's Helm"
+			"prefab"	"valve base_hat"
+			"first_sale_date"	"2010/09/29"
+			"item_class"	"tf_wearable"
+			"loadondemand" "1"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Helmet"
+			"item_name"	"#TF_Soldier_Viking_Hat"
+			"item_description"	"#TF_Soldier_Viking_Hat_Desc"
+			"item_slot"	"head"
+			"equip_region"	"hat"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/soldier/soldier_viking"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/soldier/soldier_viking.mdl"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"		"1"
+				}
+			}
+			"mouse_pressed_sound" 	"ui/item_helmet_pickup.wav"
+			"drop_sound" 		"ui/item_helmet_drop.wav"
+		}
 		"100"
 		{
 			"name"	"Glengarry Bonnet"
@@ -8558,6 +8708,72 @@
 			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
 			"drop_sound" 		"ui/item_hat_drop.wav"
 		}
+				"102"
+		{
+			"name"	"Respectless Rubber Glove"
+			"prefab"	"valve base_hat"
+			"first_sale_date"	"2010/09/29"
+			"item_class"	"tf_wearable"
+			"loadondemand" "1"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_name"	"#TF_Pyro_Chicken_Hat"
+			"item_description"	"#TF_Pyro_Chicken_Hat_Desc"
+			"item_slot"	"head"
+			"equip_region"	"hat"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/pyro/pyro_chicken"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/pyro/pyro_chicken.mdl"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"pyro"	"1"
+			}
+			"mouse_pressed_sound" 	"ui/item_rubber_pickup.wav"
+			"drop_sound" 		"ui/item_rubber_pickup.wav"
+		}
+		"103"
+		{
+			"name"	"Camera Beard"
+			"prefab"	"valve base_misc"
+			"first_sale_date"	"2010/09/29"
+			"item_class"	"tf_wearable"
+			"loadondemand" "1"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_FacialHair"
+			"item_name"	"#TF_Spy_Camera_Beard"
+			"item_description"	"#TF_Spy_Camera_Beard_Desc"
+			"item_slot"	"misc"
+			"equip_region"	"beard"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/spy/spy_camera_beard"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/spy/spy_camera_beard.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"spy"	"1"
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 		"ui/item_hat_drop.wav"
+		}
 		"104"
 		{
 			"name"	"Otolaryngologist's Mirror"
@@ -8620,6 +8836,47 @@
 			"used_by_classes"
 			{
 				"pyro"	"1"
+			}
+			"mouse_pressed_sound" 	"ui/item_helmet_pickup.wav"
+			"drop_sound" 		"ui/item_helmet_drop.wav"
+		}
+		"106"
+		{
+			"name"	"Bonk Helm"
+			"prefab"	"valve base_hat"
+			"first_sale_date"	"2010/09/29"
+			"item_class"	"tf_wearable"
+			"loadondemand" "1"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Helmet"
+			"item_name"	"#TF_Scout_Bonk_Helmet"
+			"item_description"	"#TF_Scout_Bonk_Helmet_Desc"
+			"item_slot"	"head"
+			"equip_region"	"hat"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/scout/bonk_helmet"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/scout/bonk_helmet.mdl"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"scout"	"1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+					"headphones"	"1"
+				}
 			}
 			"mouse_pressed_sound" 	"ui/item_helmet_pickup.wav"
 			"drop_sound" 		"ui/item_helmet_drop.wav"
@@ -8778,6 +9035,334 @@
 			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
 			"drop_sound" 		"ui/item_hat_drop.wav"
 		}
+		"111"
+		{
+			"name"	"Baseball Bill's Sports Shine"
+			"prefab"	"valve base_hat"
+			"first_sale_date"	"2010/09/29"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_CosmeticItem"
+			"item_name"	"#TF_Hatless_Scout"
+			"item_description"	"#TF_Hatless_Scout_Desc"
+			"item_slot"	"head"
+			"equip_region"	"hat"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/scout/scout_nohat"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/scout/scout_nohat.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"		"1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+					"headphones"	"1"
+				}
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 		"ui/item_hat_drop.wav"
+		}
+		"115"
+		{
+			"name"	"Mildly Disturbing Halloween Mask"
+			"first_sale_date"	"2010/09/29"
+			"prefab"	"base_hat"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"loadondemand" "1"
+			"show_in_armory"	"1"
+			"item_type_name""#TF_Wearable_Holiday_Hat"
+			"item_name"	"#TF_Halloween_Hat"
+			"item_description"	"#TF_Halloween_Hat_Desc"
+			"item_slot"	"head"
+			"equip_region"	"whole_head"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"image_inventory"	"backpack/player/items/all_class/all_halloween"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"holiday_restriction"	"halloween_or_fullmoon"
+			"model_player_per_class"
+			{
+				"basename"	"models/player/items/%s/%s_halloween.mdl"
+			}
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+					"headphones"	"1"
+				}
+			}
+			"mouse_pressed_sound" 	"ui/item_paper_pickup.wav"
+			"drop_sound" 		"ui/item_paper_pickup.wav"
+		}
+		"116"
+		{
+			"name"	"Ghastly Gibus"
+			"first_sale_date"	"2010/09/29"
+			"prefab"	"base_hat"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"loadondemand" "1"
+			"show_in_armory"	"1"
+			"item_type_name""#TF_Wearable_Hat"
+			"item_name"	"#TF_Domination_Hat_Ghastlierest"
+			"item_description"	"#TF_Domination_Hat_Ghastlierest_Desc"
+			"item_slot"	"head"
+			"equip_region"	"hat"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"image_inventory"	"backpack/player/items/all_class/all_domination_b_demo"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player_per_class"
+			{
+				"basename"	"models/player/items/all_class/all_domination_b_%s.mdl"
+			}
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"always tradable"
+				{
+					"attribute_class"	"always_tradable"
+					"value"				"1"
+				}
+				"halloween item"
+				{
+					"attribute_class"	"halloween_item"
+					"value"				"2009"
+				}
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+					"headphones"	"1"
+				}
+				"styles"
+				{
+					"0"
+					{
+						"model_player_per_class"
+						{
+							"basename"	"models/player/items/all_class/all_domination_2009_%s.mdl"
+						}
+						"name"	"#TF_Gibus_Style_Ghastlier"
+					}
+					"1"
+					{
+						"model_player_per_class"
+						{
+							"basename"	"models/player/items/all_class/all_domination_%s.mdl"
+						}
+						"name"	"#TF_Gibus_Style_Ghastly"
+					}
+					"2"
+					{
+						"model_player_per_class"
+						{
+							"basename"	"models/player/items/all_class/all_domination_b_%s.mdl"
+						}
+						"name"	"#TF_Gibus_Style_Ghastlierest"
+					}
+					"3"
+					{
+						"model_player_per_class"
+						{
+							"basename"	"models/player/items/all_class/ghostly_gibus_%s.mdl"
+						}
+						"name"	"#TF_Gibus_Style_Ghostly"
+					}
+				}
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 		"ui/item_hat_drop.wav"
+		}
+		"117"
+		{
+			"name"	"Ritzy Rick's Hair Fixative"
+			"prefab"	"valve base_hat"
+			"first_sale_date"	"2010/09/29"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_CosmeticItem"
+			"item_name"	"#TF_Hatless_Sniper"
+			"item_description"	"#TF_Hatless_Sniper_Desc"
+			"item_slot"	"head"
+			"equip_region"	"hat"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/sniper/sniper_nohat"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/sniper/sniper_nohat.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"sniper"	"1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+				}
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 		"ui/item_hat_drop.wav"
+		}
+		"118"
+		{
+			"name"	"Texas Slim's Dome Shine"
+			"prefab"	"valve base_hat"
+			"first_sale_date"	"2010/09/29"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_CosmeticItem"
+			"item_name"	"#TF_Hatless_Engineer"
+			"item_description"	"#TF_Hatless_Engineer_Desc"
+			"item_slot"	"head"
+			"equip_region"	"hat"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/engineer/engineer_nohat"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/engineer/engineer_nohat.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"engineer"		"1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+				}
+			}
+			"mouse_pressed_sound" 	"ui/item_bald_head_pickup.wav"
+			"drop_sound" 		"ui/item_bald_head_pickup.wav"
+		}
+		"120"
+		{
+			"name"	"Scotsman's Stove Pipe"
+			"prefab"	"valve base_hat"
+			"first_sale_date"	"2010/09/29"
+			"item_class"	"tf_wearable"
+			"loadondemand" "1"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_name"	"#TF_Demo_Top_Hat"
+			"item_description"	"#TF_Demo_Top_Hat_Desc"
+			"item_slot"	"head"
+			"equip_region"	"hat"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/demo/top_hat"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/demo/top_hat.mdl"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"demoman"	"1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"skin"	"0"
+						"name"	"#TF_StovePipe_Style0"
+					}
+					"1"
+					{
+						"skin"	"1"
+						"name"	"#TF_StovePipe_Style1"
+					}
+				}
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 		"ui/item_hat_drop.wav"
+		}
 		"121"
 		{
 			"name"	"Web Easteregg Medal"
@@ -8916,6 +9501,85 @@
 					"value"				"1"
 				}
 			}
+		}
+		"125"
+		{
+			"name"	"Honest Halo"
+			"first_sale_date"	"2010/09/29"
+			"prefab"		"base_hat"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"loadondemand" "1"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_HonestyHalo"
+			"item_name"	"#TF_HonestyHalo"
+			"item_description"	"#TF_HonestyHalo_Desc"
+			"item_slot"	"head"
+			"item_quality"	"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"image_inventory"	"backpack/player/items/all_class/all_halo"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/all_class/all_halo.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"0"
+				}
+				"styles"
+				{
+					"0"
+					{
+						"name"	"#TF_HonestyHalo_Style0"
+						"additional_hidden_bodygroups"
+						{
+							"hat"			"1"
+						}
+					}
+					"1"
+					{
+						"name"	"#TF_HonestyHalo_Style1"
+					}
+				}
+			}
+			"attributes"
+			{
+				"attach particle effect static"
+				{
+					"attribute_class"	"set_attached_particle_static"
+					"value"	"5"
+				}
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"static_attrs"
+			{
+				"limited quantity item"		"1"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_tiny_pickup.wav"
+			"drop_sound"		"ui/item_metal_tiny_drop.wav"
 		}
 		"126"
 		{
@@ -9317,6 +9981,58 @@
 			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
 			"drop_sound"		"ui/item_hat_drop.wav"
 		}
+		"135"
+		{
+			"name"	"Towering Pillar of Hats"
+			"prefab"	"valve base_hat"
+			"first_sale_date"	"2010/09/29"
+			"loadondemand"	"1"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_name"	"#TF_ToweringPillar_Hat"
+			"item_description"	"#TF_ToweringPillar_Hat_Desc"
+			"item_slot"	"head"
+			"equip_region"	"hat"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/demo/hat_first_nr"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player_per_class"
+			{
+				"basename"	"models/player/items/%s/hat_first_nr.mdl"
+			}
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+					"headphones"	"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
 		"136"
 		{
 			"name"	"Propaganda Contest Second Place"
@@ -9358,6 +10074,58 @@
 					"attribute_class"	"cannot_trade"
 					"value"				"1"
 				}
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+					"headphones"	"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"137"
+		{
+			"name"	"Noble Amassment of Hats"
+			"prefab"	"valve base_hat"
+			"first_sale_date"	"2010/09/29"
+			"loadondemand"	"1"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_name"	"#TF_NobleAmassment_Hat"
+			"item_description"	"#TF_NobleAmassment_Hat_Desc"
+			"item_slot"	"head"
+			"equip_region"	"hat"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/demo/hat_second_nr"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player_per_class"
+			{
+				"basename"	"models/player/items/%s/hat_second_nr.mdl"
+			}
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
 			}
 			"visuals"
 			{
@@ -9423,6 +10191,58 @@
 			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
 			"drop_sound"		"ui/item_hat_drop.wav"
 		}
+		"139"
+		{
+			"name"	"Modest Pile of Hat"
+			"prefab"	"valve base_hat"
+			"first_sale_date"	"2010/09/29"
+			"loadondemand"	"1"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_name"	"#TF_ModestPile_Hat"
+			"item_description"	"#TF_ModestPile_Hat_Desc"
+			"item_slot"	"head"
+			"equip_region"	"hat"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/demo/hat_third_nr"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player_per_class"
+			{
+				"basename"	"models/player/items/%s/hat_third_nr.mdl"
+			}
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"			"1"
+					"headphones"	"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
 		"140"
 		{
 			"name"	"The Wrangler"
@@ -9452,7 +10272,7 @@
 			}
 			"xifier_class_remap"	"frontier_justice"
 		}
-				"144"
+		"144"
 		{
 			"name"	"Medic Mask"
 			"first_sale_date"	"2010/09/29"
